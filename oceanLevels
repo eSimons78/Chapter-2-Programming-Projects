@@ -1,0 +1,19 @@
+#include <iostream>
+
+int main() {
+    // Define the rate at which the ocean's level is rising (in millimeters per year)
+    const double riseRatePerYear = 1.5;
+
+    // Calculate the ocean's level rise for 5, 7, and 10 years
+    double riseIn5Years = riseRatePerYear * 5;
+    double riseIn7Years = riseRatePerYear * 7;
+    double riseIn10Years = riseRatePerYear * 10;
+
+    // Display the results
+    std::cout << "Ocean's level rise predictions:" << std::endl;
+    std::cout << "In 5 years: " << riseIn5Years << " millimeters higher." << std::endl;
+    std::cout << "In 7 years: " << riseIn7Years << " millimeters higher." << std::endl;
+    std::cout << "In 10 years: " << riseIn10Years << " millimeters higher." << std::endl;
+
+    return 0;
+}
