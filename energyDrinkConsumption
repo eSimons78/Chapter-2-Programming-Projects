@@ -1,0 +1,19 @@
+#include <iostream>
+
+int main() {
+    int totalCustomers = 16500;
+    double percentPurchaseEnergyDrinks = 0.15;
+    double percentPreferCitrusFlavor = 0.58;
+
+    // Calculate approximate number of customers purchasing energy drinks
+    int customersPurchaseEnergyDrinks = totalCustomers * percentPurchaseEnergyDrinks;
+
+    // Calculate approximate number of customers preferring citrus-flavored energy drinks
+    int customersPreferCitrusFlavor = customersPurchaseEnergyDrinks * percentPreferCitrusFlavor;
+
+    // Display the results
+    cout << "Approximate number of customers purchasing one or more energy drinks per week: " << customersPurchaseEnergyDrinks << endl;
+    cout << "Approximate number of customers preferring citrus-flavored energy drinks: " << customersPreferCitrusFlavor << endl;
+
+    return 0;
+}
